@@ -304,7 +304,6 @@ $ git push</pre>
         </footer>
 </section>
 
-
 </body>
 </html>
 WELCOME_CONTENTS

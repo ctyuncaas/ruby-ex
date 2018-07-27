@@ -32,7 +32,7 @@ map '/' do
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Welcome to OpenShift</title>
+  <title>Welcome to Ecloudcaas</title>
 
 
 <style>
@@ -239,7 +239,7 @@ pre {
 
 <section class='container'>
           <hgroup>
-            <h1>Welcome to your Ruby application on OpenShift</h1>
+            <h1>Welcome to your Ruby application on Ecloudcaas</h1>
           </hgroup>
 
 
@@ -248,8 +248,8 @@ pre {
             <section>
               <h2>Deploying code changes</h2>
                 <p>
-                  The source code for this application is available to be forked from the <a href="https://www.github.com/openshift/ruby-ex">OpenShift GitHub repository</a>.
-                  You can configure a webhook in your repository to make OpenShift automatically start a build whenever you push your code:
+                  The source code for this application is available to be forked from the <a href="https://github.com/eclouscaas/ruby-ex">eclouscaas GitHub repository</a>.
+                  You can configure a webhook in your repository to make Ecloudcaas automatically start a build whenever you push your code:
                 </p>
 
 <ol>
@@ -257,13 +257,13 @@ pre {
   <li>Click on Browse &gt; Builds</li>
   <li>From the view for your Build click on the button to copy your GitHub webhook</li>
   <li>Navigate to your repository on GitHub and click on repository settings &gt; webhooks</li>
-  <li>Paste your webhook URL provided by OpenShift &mdash; that's it!</li>
+  <li>Paste your webhook URL provided by Ecloudcaas &mdash; that's it!</li>
 </ol>
-<p>After you save your webhook, if you refresh your settings page you can see the status of the ping that Github sent to OpenShift to verify it can reach the server.</p>
-<p>Note: adding a webhook requires your OpenShift server to be reachable from GitHub.</p>
+<p>After you save your webhook, if you refresh your settings page you can see the status of the ping that Github sent to Ecloudcaas to verify it can reach the server.</p>
+<p>Note: adding a webhook requires your Ecloudcaas server to be reachable from GitHub.</p>
 
                 <h3>Working in your local Git repository</h3>
-                <p>If you forked the application from the OpenShift GitHub example, you'll need to manually clone the repository to your local system. Copy the application's source code Git URL and then run:</p>
+                <p>If you forked the application from the Ecloudcaas GitHub example, you'll need to manually clone the repository to your local system. Copy the application's source code Git URL and then run:</p>
 
 <pre>$ git clone &lt;git_url&gt; &lt;directory_to_create&gt;
 
@@ -280,13 +280,10 @@ $ git push</pre>
 
                 <h2>Managing your application</h2>
 
-                <p>Documentation on how to manage your application from the Web Console or Command Line is available at the <a href="http://docs.openshift.org/latest/dev_guide/overview.html">Developer Guide</a>.</p>
+                <p>Documentation on how to manage your application from the Web Console is available at the <a href="http://docs.openshift.org/latest/dev_guide/overview.html">Developer Guide</a>.</p>
 
                 <h3>Web Console</h3>
                 <p>You can use the Web Console to view the state of your application components and launch new builds.</p>
-
-                <h3>Command Line</h3>
-                <p>With the <a href="http://docs.openshift.org/latest/cli_reference/overview.html">OpenShift command line interface</a> (CLI), you can create applications and manage projects from a terminal.</p>
 
                 <h2>Development Resources</h2>
                   <ul>
@@ -303,7 +300,7 @@ $ git push</pre>
         </div>
 
         <footer>
-          <div class="logo"><a href="https://www.openshift.com/"></a></div>
+          <div class="logo"><a href="data:image/png;base64,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"></a></div>
         </footer>
 </section>
 
